@@ -5,8 +5,10 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ## 环境配置
 
 1、需要安装最新版本的Node.js
+
 2、安装Angular-cli
 	npm install -g angular-cli@latest (推荐使用cnpm-淘宝npm镜像)
+  
 3、在项目目录下
 	npm install
 
