@@ -1,7 +1,8 @@
 .main-sidebar{
   height: 100%;
   min-height: 100%;
-  width: 230px;
+  width:100%;
+  min-width: 120px;
   z-index: 810;
   background-color: #222d32;
   margin-top: 20px;
@@ -78,4 +79,27 @@
 .sidebar-menu > li.active > a{
   background-color: #232323;
 }
+
+/*@media only screen and (min-width: 1199px) {*/
+  /*.main-sidebar{*/
+    /*width:230px;*/
+  /*}*/
+/*}*/
+/*@media only screen and (max-width: 1198px) and (min-width: 993px) {*/
+  /*.main-sidebar{*/
+    /*width:180px;*/
+  /*}*/
+/*}*/
+
+/*@media only screen and (max-width: 992px) {*/
+  /*.main-sidebar{*/
+    /*width:180px;*/
+  /*}*/
+/*}*/
+/*@media only screen and (max-width: 768px) {*/
+  /*.main-sidebar{*/
+    /*width:135px;*/
+  /*}*/
+/*}*/
+
 

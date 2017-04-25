@@ -2,3 +2,14 @@
 .service-row{
   margin: 0;
 }
+.service-navbar{
+  padding-right:0px;
+}
+.service-search,.service-info{
+  padding-left:0px;
+}
+@media only screen and (max-width: 767px){
+  .service-search,.service-info{
+    padding-left:15px;
+  }
+}
