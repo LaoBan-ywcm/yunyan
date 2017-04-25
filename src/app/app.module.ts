@@ -27,6 +27,7 @@ import { SettingComponent } from './service-detail/setting/setting.component';
 import { AjaxinfoComponent } from './service-detail/ajaxinfo/ajaxinfo.component';
 
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -50,6 +51,7 @@ import { AjaxinfoComponent } from './service-detail/ajaxinfo/ajaxinfo.component'
     ErrorComponent,
     SettingComponent,
     AjaxinfoComponent,
+
   ],
   imports: [
     BrowserModule,
