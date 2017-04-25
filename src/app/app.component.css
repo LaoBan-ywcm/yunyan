@@ -1,0 +1,22 @@
+.container-fluid{
+	padding-left: 0;
+	padding-right: 0;
+}
+.nav-right{
+	padding-right: 0;
+}
+/*mega-site navigation与bootstrap.row有*/
+.my-row{
+	margin-left: 0;
+	margin-right: 0;
+}
+.col-md-12{
+	padding-left: 0;
+	padding-right: 0;
+}
+.home-main{
+	clear: both;
+	padding-top: 120px;
+	padding-bottom: 120px;
+}
+

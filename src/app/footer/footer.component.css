@@ -1,0 +1,15 @@
+.bs-docs-footer{
+	background-color: black;
+	margin-top: 30px;
+}
+.bs-docs-footer-links{
+	display: block;
+	margin-top: 30px;
+}
+.bs-docs-footer-links>li{
+	display: inline-block;
+	margin:10px;
+}
+.bs-docs-footer-links>li>a{
+	color: #c9cbc4;
+}

@@ -1,0 +1,31 @@
+.serve-search{
+  margin:20px 0px -10px 15px;
+  background-color: grey;
+  height:40px;
+  padding:5px;
+  line-height: 30px;
+  color:#c9cbc4;
+  border-radius: 5px;
+}
+.search-s{
+  background-color: grey;
+  height: 30px;
+  padding:0;
+  margin-right: 30px;
+}
+#search{
+  -web-kit-appearance:none;
+  -moz-appearance: none;
+  position: relative;
+  height:30px;
+  width: 270px;
+  background-color: #636363;
+  border: 1px solid #535353;
+  border-radius: 2px;
+}
+.fa-search{
+  position: absolute;
+  right:5px;
+  top:5px;
+}
+/*输入框placeholder样式*/

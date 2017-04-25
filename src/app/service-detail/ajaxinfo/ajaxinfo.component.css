@@ -1,0 +1,11 @@
+.info{
+  height: 500px;
+  background-color: grey;
+  margin-left: 15px;
+  margin-top:10px;
+  border-radius: 5px;
+}
+h1{
+  padding:100px;
+}
+

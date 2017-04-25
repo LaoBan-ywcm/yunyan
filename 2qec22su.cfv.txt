@@ -1,0 +1,121 @@
+﻿修改了导航栏在手机端不显示的问题，修改了在移动端导航栏切换的速度
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# Changes to be committed:
+#	modified:   .angular-cli.json
+#	modified:   package.json
+#	modified:   src/app/app-routing.module.ts
+#	modified:   src/app/app.component.css
+#	modified:   src/app/app.component.html
+#	modified:   src/app/app.module.ts
+#	new file:   src/app/carouel/carouel.component.css
+#	new file:   src/app/carouel/carouel.component.html
+#	new file:   src/app/carouel/carouel.component.spec.ts
+#	new file:   src/app/carouel/carouel.component.ts
+#	new file:   src/app/customer/customer.component.css
+#	new file:   src/app/customer/customer.component.html
+#	new file:   src/app/customer/customer.component.spec.ts
+#	new file:   src/app/customer/customer.component.ts
+#	new file:   src/app/debug.log
+#	new file:   src/app/footer/footer.component.css
+#	new file:   src/app/footer/footer.component.html
+#	new file:   src/app/footer/footer.component.spec.ts
+#	new file:   src/app/footer/footer.component.ts
+#	new file:   src/app/home/home.component.css
+#	new file:   src/app/home/home.component.html
+#	new file:   src/app/home/home.component.spec.ts
+#	new file:   src/app/home/home.component.ts
+#	new file:   src/app/introduce/introduce.component.css
+#	new file:   src/app/introduce/introduce.component.html
+#	new file:   src/app/introduce/introduce.component.spec.ts
+#	new file:   src/app/introduce/introduce.component.ts
+#	new file:   src/app/navbar/navbar.component.css
+#	new file:   src/app/navbar/navbar.component.html
+#	new file:   src/app/navbar/navbar.component.spec.ts
+#	new file:   src/app/navbar/navbar.component.ts
+#	new file:   src/app/product/product.component.css
+#	new file:   src/app/product/product.component.html
+#	new file:   src/app/product/product.component.spec.ts
+#	new file:   src/app/product/product.component.ts
+#	new file:   src/app/programme/programme.component.css
+#	new file:   src/app/programme/programme.component.html
+#	new file:   src/app/programme/programme.component.spec.ts
+#	new file:   src/app/programme/programme.component.ts
+#	new file:   src/app/service-detail/ajaxinfo/ajaxinfo.component.css
+#	new file:   src/app/service-detail/ajaxinfo/ajaxinfo.component.html
+#	new file:   src/app/service-detail/ajaxinfo/ajaxinfo.component.spec.ts
+#	new file:   src/app/service-detail/ajaxinfo/ajaxinfo.component.ts
+#	new file:   src/app/service-detail/browser/browser.component.css
+#	new file:   src/app/service-detail/browser/browser.component.html
+#	new file:   src/app/service-detail/browser/browser.component.spec.ts
+#	new file:   src/app/service-detail/browser/browser.component.ts
+#	new file:   src/app/service-detail/cpu/cpu.component.css
+#	new file:   src/app/service-detail/cpu/cpu.component.html
+#	new file:   src/app/service-detail/cpu/cpu.component.spec.ts
+#	new file:   src/app/service-detail/cpu/cpu.component.ts
+#	new file:   src/app/service-detail/error/error.component.css
+#	new file:   src/app/service-detail/error/error.component.html
+#	new file:   src/app/service-detail/error/error.component.spec.ts
+#	new file:   src/app/service-detail/error/error.component.ts
+#	new file:   src/app/service-detail/flow/flow.component.css
+#	new file:   src/app/service-detail/flow/flow.component.html
+#	new file:   src/app/service-detail/flow/flow.component.spec.ts
+#	new file:   src/app/service-detail/flow/flow.component.ts
+#	new file:   src/app/service-detail/network-card/network-card.component.css
+#	new file:   src/app/service-detail/network-card/network-card.component.html
+#	new file:   src/app/service-detail/network-card/network-card.component.spec.ts
+#	new file:   src/app/service-detail/network-card/network-card.component.ts
+#	new file:   src/app/service-detail/process/process.component.css
+#	new file:   src/app/service-detail/process/process.component.html
+#	new file:   src/app/service-detail/process/process.component.spec.ts
+#	new file:   src/app/service-detail/process/process.component.ts
+#	new file:   src/app/service-detail/serve-navbar/serve-navbar.component.css
+#	new file:   src/app/service-detail/serve-navbar/serve-navbar.component.html
+#	new file:   src/app/service-detail/serve-navbar/serve-navbar.component.spec.ts
+#	new file:   src/app/service-detail/serve-navbar/serve-navbar.component.ts
+#	new file:   src/app/service-detail/serve-search/serve-search.component.css
+#	new file:   src/app/service-detail/serve-search/serve-search.component.html
+#	new file:   src/app/service-detail/serve-search/serve-search.component.spec.ts
+#	new file:   src/app/service-detail/serve-search/serve-search.component.ts
+#	new file:   src/app/service-detail/setting/setting.component.css
+#	new file:   src/app/service-detail/setting/setting.component.html
+#	new file:   src/app/service-detail/setting/setting.component.spec.ts
+#	new file:   src/app/service-detail/setting/setting.component.ts
+#	new file:   src/app/service-detail/the-server/the-server.component.css
+#	new file:   src/app/service-detail/the-server/the-server.component.html
+#	new file:   src/app/service-detail/the-server/the-server.component.spec.ts
+#	new file:   src/app/service-detail/the-server/the-server.component.ts
+#	new file:   src/app/service/service.component.css
+#	new file:   src/app/service/service.component.html
+#	new file:   src/app/service/service.component.spec.ts
+#	new file:   src/app/service/service.component.ts
+#	new file:   src/assets/navbar/img/cd-logo.svg
+#	new file:   src/assets/navbar/img/debug.log
+#	new file:   src/assets/navbar/img/img.jpg
+#	new file:   src/assets/navbar/img/line-icon-1.svg
+#	new file:   src/assets/navbar/img/line-icon-2.svg
+#	new file:   src/assets/navbar/img/line-icon-3.svg
+#	new file:   src/assets/navbar/img/line-icon-4.svg
+#	new file:   src/assets/navbar/img/line-icon-5.svg
+#	new file:   src/assets/navbar/img/line-icon-6.svg
+#	new file:   src/assets/navbar/img/line-icon-7.svg
+#	new file:   src/assets/navbar/img/line-icon-8.svg
+#	new file:   src/assets/navbar/js/jquery-2.1.1.js
+#	new file:   src/assets/navbar/js/jquery.mobile.custom.min.js
+#	new file:   src/assets/navbar/js/main.js
+#	new file:   src/assets/navbar/js/modernizr.js
+#	new file:   src/assets/service/css/bootstrap.min.css
+#	new file:   src/assets/service/css/font-awesome.min.css
+#	new file:   src/assets/service/css/sidebar-menu.css
+#	new file:   src/assets/service/fonts/FontAwesome.otf
+#	new file:   src/assets/service/fonts/fontawesome-webfont.eot
+#	new file:   src/assets/service/fonts/fontawesome-webfont.svg
+#	new file:   src/assets/service/fonts/fontawesome-webfont.ttf
+#	new file:   src/assets/service/fonts/fontawesome-webfont.woff
+#	new file:   src/assets/service/fonts/fontawesome-webfont.woff2
+#	new file:   src/assets/service/js/jquery-2.1.1.min.js
+#	new file:   src/assets/service/js/sidebar-menu.js
+#	modified:   src/index.html
+#
+

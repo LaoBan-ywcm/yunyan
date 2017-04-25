@@ -1,0 +1,242 @@
+<!-- mega-site navigation -->
+<div class="m-navbar navbar-fixed-top">
+  <header class="cd-main-header">
+    <a class="cd-logo"  [routerLink]="['/home']" ><img src="../../assets/navbar/img//cd-logo.svg" alt="Logo"></a>
+
+    <!-- 移动端 -->
+    <ul class="cd-header-buttons">
+      <li><a class="cd-search-trigger" href="#cd-search">搜索<span></span></a></li>
+      <li><a class="cd-nav-trigger" href="#cd-primary-nav">主菜单<span></span></a></li>
+    </ul>
+  </header>
+
+  <div class="cd-main-content">
+
+  </div>
+
+  <nav class="cd-nav">
+    <ul id="cd-primary-nav" class="cd-primary-nav is-fixed">
+      <li class="has-children">
+        <a>服务</a>
+
+        <ul class="cd-secondary-nav is-hidden">
+          <li class="go-back"><a  >主菜单</a></li>
+          <li class="" style="display: none;"><a></a></li>
+          <li class="has-children">
+            <a>服务</a>
+
+            <ul class="is-hidden">
+              <li class="go-back"><a>检测</a></li>
+              <li class="see-all"><a>所有检测服务</a></li>
+              <li class="has-children">
+                <a>检测</a>
+
+                <ul class="is-hidden">
+                  <li class="go-back"><a class="mytrigger">检测</a></li>
+                  <li class="see-all"><a class="mytrigger">检测 检测</a></li>
+                  <li><a class="mytrigger">检测 &amp; 检测</a></li>
+                  <li><a class="mytrigger">检测</a></li>
+                  <li><a class="mytrigger">检测 &amp; 检测</a></li>
+                </ul>
+              </li>
+              <li>
+                <a [routerLink]="['/service']" class="mytrigger">设备信息监测</a>
+              </li>
+              <li><a class="mytrigger">检测</a></li>
+              <li><a class="mytrigger">检测</a></li>
+              <li><a class="mytrigger">检测</a></li>
+              <li><a class="mytrigger">检测</a></li>
+              <li><a class="mytrigger">检测</a></li>
+              <li><a class="mytrigger">检测</a></li>
+            </ul>
+          </li>
+
+          <li class="has-children">
+            <a >检测</a>
+
+            <ul class="is-hidden">
+              <li class="go-back"><a   class="mytrigger">检测</a></li>
+              <li class="" style="display: none;"><a class="mytrigger"></a></li>
+              <li><a class="mytrigger">检测</a></li>
+              <li class="has-children">
+                <a   >检测</a>
+
+                <ul class="is-hidden">
+                  <li class="go-back"><a  class="mytrigger" >检测</a></li>
+                  <li class="see-all"><a class="mytrigger">检测 检测</a></li>
+                  <li><a class="mytrigger">检测</a></li>
+                  <li><a class="mytrigger">检测</a></li>
+                  <li><a class="mytrigger">检测</a></li>
+                  <li><a class="mytrigger">检测</a></li>
+                </ul>
+              </li>
+              <li><a  class="mytrigger" >检测</a></li>
+              <li><a   class="mytrigger">检测</a></li>
+            </ul>
+          </li>
+
+          <li class="has-children">
+            <a >检测</a>
+
+            <ul class="is-hidden">
+              <li class="go-back"><a   class="mytrigger">检测</a></li>
+              <li class="" style="display: none;"><a class="mytrigger"></a></li>
+              <li><a herf="#" class="mytrigger">检测 检测</a></li>
+              <li class="has-children">
+                <a   >检测</a>
+
+                <ul class="is-hidden">
+                  <li class="go-back"><a  class="mytrigger" >检测</a></li>
+                  <li class="see-all"><a herf="#" class="mytrigger">检测 检测</a></li>
+                  <li><a class="mytrigger">检测</a></li>
+                  <li><a class="mytrigger">检测</a></li>
+                  <li><a class="mytrigger">检测</a></li>
+                  <li><a class="mytrigger">检测</a></li>
+                </ul>
+              </li>
+              <li><a   class="mytrigger">检测</a></li>
+              <li><a   class="mytrigger">检测</a></li>
+            </ul>
+          </li>
+
+          <li class="has-children">
+            <a >检测</a>
+
+            <ul class="is-hidden">
+              <li class="go-back"><a   class="mytrigger">检测</a></li>
+              <li class="" style="display: none;"><a ></a></li>
+              <li><a >检测 检测</a></li>
+              <li class="has-children">
+                <a   >检测</a>
+
+                <ul class="is-hidden">
+                  <li class="go-back"><a  class="mytrigger" >检测</a></li>
+                  <li class="see-all"><a class="mytrigger">检测 检测</a></li>
+                  <li><a class="mytrigger">检测</a></li>
+                  <li><a class="mytrigger">检测</a></li>
+                  <li><a class="mytrigger">检测</a></li>
+                  <li><a class="mytrigger">检测</a></li>
+                </ul>
+              </li>
+              <li><a   class="mytrigger">检测</a></li>
+              <li><a   class="mytrigger">检测</a></li>
+            </ul>
+          </li>
+
+
+        </ul>
+      </li>
+
+      <li class="has-children">
+        <a >方案</a>
+
+        <ul class="cd-nav-gallery is-hidden">
+          <li class="go-back"><a   >主菜单</a></li>
+          <li class="" style="display: none;"><a ></a></li>
+          <li>
+            <a class="cd-nav-item" [routerLink]="['/programme']">
+              <img src="../../assets/navbar/img/img.jpg" alt="Product Image">
+              <h3>方案 #1</h3>
+            </a>
+          </li>
+
+          <li>
+            <a class="cd-nav-item" [routerLink]="['/programme']">
+              <img src="../../assets/navbar/img/img.jpg" alt="Product Image">
+              <h3>方案 #2</h3>
+            </a>
+          </li>
+
+          <li>
+            <a class="cd-nav-item" [routerLink]="['/programme']">
+              <img src="../../assets/navbar/img/img.jpg" alt="Product Image">
+              <h3>方案 #3</h3>
+            </a>
+          </li>
+
+          <li>
+            <a class="cd-nav-item" [routerLink]="['/programme']">
+              <img src="../../assets/navbar/img/img.jpg" alt="Product Image">
+              <h3>方案 #4</h3>
+            </a>
+          </li>
+        </ul>
+      </li>
+
+      <li class="has-children">
+        <a >产品</a>
+        <ul class="cd-nav-icons is-hidden">
+          <li class="go-back"><a   >主菜单</a></li>
+          <li class="" style="display: none;"><a ></a></li>
+          <li>
+            <a class="cd-nav-item item-1" [routerLink]="['/product']">
+              <h3>产品 #1</h3>
+              <p>产品的描述信息</p>
+            </a>
+          </li>
+
+          <li>
+            <a class="cd-nav-item item-2" [routerLink]="['/product']">
+              <h3>产品 #2</h3>
+              <p>产品的描述信息</p>
+            </a>
+          </li>
+
+          <li>
+            <a class="cd-nav-item item-3" [routerLink]="['/product']">
+              <h3>产品 #3</h3>
+              <p>产品的描述信息</p>
+            </a>
+          </li>
+
+          <li>
+            <a class="cd-nav-item item-4" [routerLink]="['/product']">
+              <h3>产品 #4</h3>
+              <p>产品的描述信息</p>
+            </a>
+          </li>
+
+          <li>
+            <a class="cd-nav-item item-5" [routerLink]="['/product']">
+              <h3>产品 #5</h3>
+              <p>产品的描述信息</p>
+            </a>
+          </li>
+
+          <li>
+            <a class="cd-nav-item item-6" [routerLink]="['/product']">
+              <h3>产品 #6</h3>
+              <p>产品的描述信息</p>
+            </a>
+          </li>
+
+          <li>
+            <a class="cd-nav-item item-7" [routerLink]="['/product']">
+              <h3>产品 #7</h3>
+              <p>产品的描述信息</p>
+            </a>
+          </li>
+
+          <li>
+            <a class="cd-nav-item item-8" [routerLink]="['/product']">
+              <h3>产品 #8</h3>
+              <p>产品的描述信息</p>
+            </a>
+          </li>
+        </ul>
+      </li>
+
+      <li><a [routerLink]="['/customer']">客户</a></li>
+      <li><a [routerLink]="['/introduce']">关于我们</a></li>
+      <li><a  class="my-login">登录</a></li>
+    </ul> <!-- primary-nav -->
+  </nav> <!-- cd-nav -->
+
+  <div id="cd-search" class="cd-search">
+    <form>
+      <input type="search" placeholder="Search...">
+    </form>
+  </div>
+
+</div>
+

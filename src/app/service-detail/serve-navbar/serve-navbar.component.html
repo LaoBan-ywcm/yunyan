@@ -1,0 +1,112 @@
+<aside class="main-sidebar">
+  <section  class="sidebar">
+    <ul class="sidebar-menu">
+      <li class="header">设备信息</li>
+      <li class="treeview">
+        <a [routerLink]="['./theServer']">
+          <i class="fa fa-server"></i> <span>服务器</span> <i class="fa fa-angle-right pull-right"></i>
+        </a>
+        <ul class="treeview-menu">
+          <li><a ><i class="fa fa-circle-o"></i> 服务器 #1</a></li>
+          <li><a ><i class="fa fa-circle-o"></i> 服务器 #2</a></li>
+        </ul>
+      </li>
+      <li class="treeview">
+        <a [routerLink]="['./cpu']">
+          <i class="fa fa-microchip"></i>
+          <span>CPU</span>
+          <span class="label label-primary pull-right">4</span>
+        </a>
+        <ul class="treeview-menu" style="display: none;">
+          <li><a ><i class="fa fa-circle-o"></i> CPU#1</a></li>
+          <li><a ><i class="fa fa-circle-o"></i> CPU#2</a></li>
+          <li><a ><i class="fa fa-circle-o"></i> CPU#3</a></li>
+          <li class=""><a ><i class="fa fa-circle-o"></i> CPU#4</a>
+          </li>
+        </ul>
+      </li>
+      <li class="treeview">
+        <a [routerLink]="['./networkCard']">
+          <i class="fa fa-object-ungroup"></i> <span>网卡</span>
+          <i class="fa fa-angle-right pull-right"></i>
+        </a>
+        <ul class="treeview-menu" >
+          <li><a ><i class="fa fa-circle-o"></i> 网卡一</a></li>
+        </ul>
+      </li>
+      <li class="treeview">
+        <a [routerLink]="['./process']">
+          <i class="fa fa-inbox"></i>
+          <span>进程</span>
+          <i class="fa fa-angle-right pull-right"></i>
+        </a>
+        <ul class="treeview-menu">
+          <li><a ><i class="fa fa-circle-o"></i> 时间排序</a></li>
+          <li><a ><i class="fa fa-circle-o"></i> 资源排序</a></li>
+        </ul>
+      </li>
+
+
+      <li class="treeview">
+        <a [routerLink]="['./flow']">
+          <i class="fa fa-feed"></i> <span>流量</span>
+          <small class="label pull-right label-danger">警告</small>
+        </a>
+
+        <ul class="treeview-menu">
+          <li><a ><i class="fa fa-circle-o"></i> 警告一</a></li>
+          <li><a ><i class="fa fa-circle-o"></i> 警告二</a></li>
+        </ul>
+
+      </li>
+      <li class="treeview">
+        <a [routerLink]="['./ajax']">
+          <i class="fa fa-certificate"></i> <span>AjAx请求</span>
+          <i class="fa fa-angle-right pull-right"></i>
+        </a>
+        <ul class="treeview-menu">
+          <li><a ><i class="fa fa-circle-o"></i> 1</a></li>
+          <li><a ><i class="fa fa-circle-o"></i> 2</a></li>
+          <li><a ><i class="fa fa-circle-o"></i> 3</a></li>
+        </ul>
+      </li>
+      <li class="treeview">
+        <a [routerLink]="['./browser']">
+          <i class="fa fa-internet-explorer"></i> <span>浏览器</span>
+          <i class="fa fa-angle-right pull-right"></i>
+        </a>
+        <ul class="treeview-menu">
+          <li><a ><i class="fa fa-circle-o"></i> 1</a></li>
+          <li><a ><i class="fa fa-circle-o"></i> 2</a></li>
+          <li><a ><i class="fa fa-circle-o"></i> 3</a></li>
+        </ul>
+      </li>
+      <li class="treeview">
+        <a [routerLink]="['./error']">
+          <i class="fa fa-warning"></i> <span>错误</span>
+          <i class="fa fa-angle-right pull-right"></i>
+        </a>
+        <ul class="treeview-menu">
+
+          <li><a ><i class="fa fa-circle-o"></i> 404 错误</a></li>
+          <li><a ><i class="fa fa-circle-o"></i> 500 错误</a></li>
+
+        </ul>
+      </li>
+      <li class="treeview">
+        <a [routerLink]="['./setting']">
+          <i class="fa fa-gears"></i> <span>设置</span>
+          <i class="fa fa-angle-right pull-right"></i>
+        </a>
+        <ul class="treeview-menu">
+
+          <li><a ><i class="fa fa-circle-o"></i> 设置一</a></li>
+          <li><a ><i class="fa fa-circle-o"></i> 设置一</a></li>
+
+        </ul>
+      </li>
+
+
+    </ul>
+  </section>
+</aside>
