@@ -30,10 +30,11 @@ const routes: Routes = [
     path:'service',
     component:ServiceComponent,
     children:[
-      {
-        path:'',
-        component:TheServerComponent
-      },
+      //服务页面进来默认的组件
+      // {
+      //   path:'',
+      //   component:TheServerComponent
+      // },
       {
         path:'cpu',
         component:CpuComponent
