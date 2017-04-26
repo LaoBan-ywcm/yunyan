@@ -29,6 +29,7 @@ import { CenterComponent } from './service-detail/center/center.component';
 
 
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -53,10 +54,14 @@ import { CenterComponent } from './service-detail/center/center.component';
     SettingComponent,
     AjaxinfoComponent,
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
     CenterComponent,
 >>>>>>> branch1
+=======
+
+>>>>>>> 4e4c2379de8f1bf65bf856e5140781fa794ad57d
   ],
   imports: [
     BrowserModule,
