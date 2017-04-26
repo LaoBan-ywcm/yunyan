@@ -25,6 +25,7 @@ import { BrowserComponent } from './service-detail/browser/browser.component';
 import { ErrorComponent } from './service-detail/error/error.component';
 import { SettingComponent } from './service-detail/setting/setting.component';
 import { AjaxinfoComponent } from './service-detail/ajaxinfo/ajaxinfo.component';
+import { CenterComponent } from './service-detail/center/center.component';
 
 
 @NgModule({
@@ -50,6 +51,7 @@ import { AjaxinfoComponent } from './service-detail/ajaxinfo/ajaxinfo.component'
     ErrorComponent,
     SettingComponent,
     AjaxinfoComponent,
+    CenterComponent,
   ],
   imports: [
     BrowserModule,
