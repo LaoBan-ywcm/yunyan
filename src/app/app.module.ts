@@ -27,6 +27,7 @@ import { SettingComponent } from './service-detail/setting/setting.component';
 import { AjaxinfoComponent } from './service-detail/ajaxinfo/ajaxinfo.component';
 import { CenterComponent } from './service-detail/center/center.component';
 import { TheServerInfoComponent } from './service-detail/the-server-info/the-server-info.component';
+import { TheServerDetailComponent } from './service-detail/the-server-detail/the-server-detail.component';
 
 
 
@@ -57,6 +58,7 @@ import { TheServerInfoComponent } from './service-detail/the-server-info/the-ser
     AjaxinfoComponent,
     CenterComponent,
     TheServerInfoComponent,
+    TheServerDetailComponent,
   ],
   imports: [
     BrowserModule,

@@ -28,7 +28,7 @@ export class TheServerInfoComponent implements OnInit {
     //*ngFor中必须得用数组
     //根据中心传过来的id获取相对应的server
     this.servers = this._serverservice.getServer(centerId);
-    console.log(this.servers);
+    
   }
 
 }

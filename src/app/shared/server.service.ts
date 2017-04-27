@@ -4,19 +4,19 @@ import { Injectable } from '@angular/core';
 export class ServerService {
 
   private servers: Server[] = [
-    new Server(1,1,'中心1服务器1'),
-    new Server(1,2,'中心1服务器2'),
-    new Server(1,3,'中心1服务器3'),
-    new Server(2,1,'中心2服务器1'),
-    new Server(2,2,'中心2服务器2'),
-    new Server(3,1,'中心3服务器1'),
-    new Server(3,2,'中心3服务器2'),
-    new Server(3,3,'中心3服务器3'),
-    new Server(3,4,'中心3服务器4'),
-    new Server(3,5,'中心3服务器5'),
-    new Server(4,1,'中心4服务器1'),
-    new Server(4,2,'中心4服务器2'),
-    new Server(5,1,'中心5服务器1'),
+    new Server(1,11,'中心1服务器1'),
+    new Server(1,12,'中心1服务器2'),
+    new Server(1,13,'中心1服务器3'),
+    new Server(2,21,'中心2服务器1'),
+    new Server(2,22,'中心2服务器2'),
+    new Server(3,31,'中心3服务器1'),
+    new Server(3,32,'中心3服务器2'),
+    new Server(3,33,'中心3服务器3'),
+    new Server(3,34,'中心3服务器4'),
+    new Server(3,35,'中心3服务器5'),
+    new Server(4,41,'中心4服务器1'),
+    new Server(4,42,'中心4服务器2'),
+    new Server(5,51,'中心5服务器1'),
   ];
 
   getServer(cId: number){
