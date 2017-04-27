@@ -15,6 +15,8 @@ import {SettingComponent} from "./service-detail/setting/setting.component";
 import {FlowComponent} from "./service-detail/flow/flow.component";
 import {BrowserComponent} from "./service-detail/browser/browser.component";
 import {AjaxinfoComponent} from "./service-detail/ajaxinfo/ajaxinfo.component";
+import {TheServerInfoComponent} from "./service-detail/the-server-info/the-server-info.component";
+import {CenterComponent} from "./service-detail/center/center.component";
 
 const routes: Routes = [
   {
@@ -29,48 +31,59 @@ const routes: Routes = [
   {
     path:'service',
     component:ServiceComponent,
+    // children:[
+    //   //服务页面进来默认的组件
+    //   // {
+    //   //   path:'',
+    //   //   component:TheServerComponent
+    //   // },
+    //   {
+    //     path:'cpu',
+    //     component:CpuComponent
+    //   },
+    //   {
+    //     path:'networkCard',
+    //     component:NetworkCardComponent
+    //   },
+    //   {
+    //     path:'process',
+    //     component:ProcessComponent
+    //   },
+    //   {
+    //     path:'theServer',
+    //     component:TheServerComponent
+    //   },
+    //   {
+    //     path:'error',
+    //     component:ErrorComponent
+    //   },
+    //   {
+    //     path:'setting',
+    //     component:SettingComponent
+    //   },
+    //   {
+    //     path:'flow',
+    //     component:FlowComponent
+    //   },
+    //   {
+    //     path:'browser',
+    //     component:BrowserComponent
+    //   },
+    //   {
+    //     path:'ajax',
+    //     component:AjaxinfoComponent
+    //   }
+    // ]
     children:[
-      //服务页面进来默认的组件
-      // {
-      //   path:'',
-      //   component:TheServerComponent
-      // },
       {
-        path:'cpu',
-        component:CpuComponent
+        path:'',
+        component:CenterComponent,
       },
       {
-        path:'networkCard',
-        component:NetworkCardComponent
-      },
-      {
-        path:'process',
-        component:ProcessComponent
-      },
-      {
-        path:'theServer',
-        component:TheServerComponent
-      },
-      {
-        path:'error',
-        component:ErrorComponent
-      },
-      {
-        path:'setting',
-        component:SettingComponent
-      },
-      {
-        path:'flow',
-        component:FlowComponent
-      },
-      {
-        path:'browser',
-        component:BrowserComponent
-      },
-      {
-        path:'ajax',
-        component:AjaxinfoComponent
+        path:'the-server-info/:id',
+        component:TheServerInfoComponent
       }
+
     ]
   },
   {

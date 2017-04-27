@@ -26,6 +26,8 @@ import { ErrorComponent } from './service-detail/error/error.component';
 import { SettingComponent } from './service-detail/setting/setting.component';
 import { AjaxinfoComponent } from './service-detail/ajaxinfo/ajaxinfo.component';
 import { CenterComponent } from './service-detail/center/center.component';
+import { TheServerInfoComponent } from './service-detail/the-server-info/the-server-info.component';
+
 
 
 
@@ -53,15 +55,8 @@ import { CenterComponent } from './service-detail/center/center.component';
     ErrorComponent,
     SettingComponent,
     AjaxinfoComponent,
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-=======
     CenterComponent,
->>>>>>> branch1
-=======
-
->>>>>>> 4e4c2379de8f1bf65bf856e5140781fa794ad57d
+    TheServerInfoComponent,
   ],
   imports: [
     BrowserModule,
