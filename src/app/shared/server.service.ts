@@ -3,6 +3,9 @@ import { Injectable } from '@angular/core';
 @Injectable()
 export class ServerService {
 
+  //用户点击的服务器
+  private server: Server;
+
   private servers: Server[] = [
     new Server(1,11,'中心1服务器1'),
     new Server(1,12,'中心1服务器2'),
@@ -19,8 +22,21 @@ export class ServerService {
     new Server(5,51,'中心5服务器1'),
   ];
 
+  //根据center的ID来获取服务器列表
   getServer(cId: number){
     return this.servers.filter((server) => server.centerId == cId);
+  }
+
+  //获取用户点击的服务器
+  getServerInfo(server: Server){
+    this.server = server;
+    console.log(this.server)
+
+  }
+
+  //向服务器的详细展示组件推送当前服务器
+  toServerInfo(): Server{
+    return this.server;
   }
 
   constructor() { }
