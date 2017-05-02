@@ -5,12 +5,13 @@
     </h1>
     <h3>一共有{{center.vm}}个服务器在运行</h3>
   </div>
-  <div class="col-lg-4 col-md-4 col-xs-12 server-info" *ngFor="let server of servers;let i=index;" [routerLink]="['./the-server-detail/'+(i+1)+'']" (click)="setServer(server)"
+  <div class="col-lg-4 col-md-4 col-xs-12 server-info" *ngFor="let server of servers;let i=index;" [routerLink]="['./the-server-detail/'+(server.id)+'']"
   >
     <div>
       <h1>{{server.name}}</h1>
       <h4 class="serveNumber">中心id:{{server.centerId}}</h4>
       <h4 class="serveNumber">服务器id:{{server.id}}</h4>
+      <h4 class="serveNumber">共有{{server.vmN}}个虚拟机在运行</h4>
     </div>
   </div>
 </div>

@@ -10,13 +10,12 @@ import {ServerService, Server} from "../../shared/server.service";
   styleUrls: ['./the-server-info.component.css'],
   providers:[CenterService,ServerService]
 })
-export class TheServerInfoComponent implements OnInit ,OnChanges,DoCheck,OnDestroy{
+export class TheServerInfoComponent implements OnInit {
 
   center: Center;
   servers: Server[];
 
-  //用户当前点击的服务器
-  server: Server;
+
 
   constructor(
     private _activatedroute:ActivatedRoute,
@@ -24,16 +23,7 @@ export class TheServerInfoComponent implements OnInit ,OnChanges,DoCheck,OnDestr
     private _serverservice: ServerService
   ) { }
 
-  //获取用户当前点击的服务器
-  setServer(server: Server){
-    this.server = server;
-    console.log(this.server)
-  }
 
-  getServer(): Server{
-    console.log(this.server);
-    return this.server;
-  }
 
 
   ngOnInit() {
@@ -42,30 +32,10 @@ export class TheServerInfoComponent implements OnInit ,OnChanges,DoCheck,OnDestr
     this.center = this._centerservice.getCenter(centerId);
     //*ngFor中必须得用数组
     //根据中心传过来的id获取相对应的server
-    this.servers = this._serverservice.getServer(centerId);
+    this.servers = this._serverservice.getServers(centerId);
 
   }
 
-  ngOnChanges(){
 
-    console.log('changes')
-    //获取用户点击的服务器的id
-    let server = this.getServer();
-    this._serverservice.getServerInfo(server);
-  }
-
-  ngDoCheck(){
-    console.log('check')
-    //获取用户点击的服务器的id
-    let server = this.getServer();
-    this._serverservice.getServerInfo(server);
-  }
-
-  ngOnDestroy(){
-    console.log('destruy');
-    //获取用户点击的服务器的id
-    let server = this.getServer();
-    this._serverservice.getServerInfo(server);
-  }
 
 }
