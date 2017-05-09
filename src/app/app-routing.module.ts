@@ -98,39 +98,39 @@ const routes: Routes = [
             component: TheServerComponent
           },
           {
-            path: 'cpu',
+            path: 'cpu/:id',
             component: CpuComponent
           },
           {
-            path: 'networkCard',
+            path: 'networkCard/:id',
             component: NetworkCardComponent
           },
           {
-            path: 'process',
+            path: 'process/:id',
             component: ProcessComponent
           },
           {
-            path: 'theServer',
+            path: 'theServer/:id',
             component: TheServerComponent
           },
           {
-            path: 'error',
+            path: 'error/:id',
             component: ErrorComponent
           },
           {
-            path: 'setting',
+            path: 'setting/:id',
             component: SettingComponent
           },
           {
-            path: 'flow',
+            path: 'flow/:id',
             component: FlowComponent
           },
           {
-            path: 'browser',
+            path: 'browser/:id',
             component: BrowserComponent
           },
           {
-            path: 'ajax',
+            path: 'ajax/:id',
             component: AjaxinfoComponent
           }
         ]

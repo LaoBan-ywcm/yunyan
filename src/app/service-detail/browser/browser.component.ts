@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {ActivatedRoute} from "@angular/router";
 
 @Component({
   selector: 'app-browser',
@@ -7,9 +8,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class BrowserComponent implements OnInit {
 
-  constructor() { }
+  //当前服务器id
+  serverId: number;
+
+  constructor(
+    private _activatedrouter:ActivatedRoute
+  ) { }
 
   ngOnInit() {
+    let sId = this._activatedrouter.snapshot.params['id'];
+    this.serverId = sId;
   }
 
 }

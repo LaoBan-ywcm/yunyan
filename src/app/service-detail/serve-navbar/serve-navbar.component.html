@@ -3,7 +3,7 @@
     <ul class="sidebar-menu">
       <li class="header">设备信息</li>
       <li class="treeview">
-        <a [routerLink]="['./theServer']">
+        <a [routerLink]="['./theServer',serverId]">
           <i class="fa fa-server"></i> <span>虚拟机</span>
           <span class="label label-primary pull-right">{{serverVmNs.length}}</span>
         </a>
@@ -12,7 +12,7 @@
         </ul>
       </li>
       <li class="treeview">
-        <a [routerLink]="['./cpu']">
+        <a [routerLink]="['./cpu',serverId]">
           <i class="fa fa-microchip"></i>
           <span>CPU</span>
           <span class="label label-primary pull-right">4</span>
@@ -26,7 +26,7 @@
         </ul>
       </li>
       <li class="treeview">
-        <a [routerLink]="['./networkCard']">
+        <a [routerLink]="['./networkCard',serverId]">
           <i class="fa fa-object-ungroup"></i> <span>网卡</span>
           <i class="fa fa-angle-right pull-right"></i>
         </a>
@@ -35,7 +35,7 @@
         </ul>
       </li>
       <li class="treeview">
-        <a [routerLink]="['./process']">
+        <a [routerLink]="['./process',serverId]">
           <i class="fa fa-inbox"></i>
           <span>进程</span>
           <i class="fa fa-angle-right pull-right"></i>
@@ -48,7 +48,7 @@
 
 
       <li class="treeview">
-        <a [routerLink]="['./flow']">
+        <a [routerLink]="['./flow',serverId]">
           <i class="fa fa-feed"></i> <span>流量</span>
           <small class="label pull-right label-danger">警告</small>
         </a>
@@ -60,7 +60,7 @@
 
       </li>
       <li class="treeview">
-        <a [routerLink]="['./ajax']">
+        <a [routerLink]="['./ajax',serverId]">
           <i class="fa fa-certificate"></i> <span>AjAx</span>
           <i class="fa fa-angle-right pull-right"></i>
         </a>
@@ -71,7 +71,7 @@
         </ul>
       </li>
       <li class="treeview">
-        <a [routerLink]="['./browser']">
+        <a [routerLink]="['./browser',serverId]">
           <i class="fa fa-internet-explorer"></i> <span>浏览器</span>
           <i class="fa fa-angle-right pull-right"></i>
         </a>
@@ -82,7 +82,7 @@
         </ul>
       </li>
       <li class="treeview">
-        <a [routerLink]="['./error']">
+        <a [routerLink]="['./error',serverId]">
           <i class="fa fa-warning"></i> <span>错误</span>
           <i class="fa fa-angle-right pull-right"></i>
         </a>
@@ -94,7 +94,7 @@
         </ul>
       </li>
       <li class="treeview">
-        <a [routerLink]="['./setting']">
+        <a [routerLink]="['./setting',serverId]">
           <i class="fa fa-gears"></i> <span>设置</span>
           <i class="fa fa-angle-right pull-right"></i>
         </a>

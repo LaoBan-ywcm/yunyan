@@ -15,6 +15,9 @@ export class ServeNavbarComponent implements OnInit {
   //当前服务器的虚拟机数
   serverVmNs: number[];
 
+  //当前服务器的id
+  serverId:number;
+
 
 
   constructor() {
@@ -23,6 +26,7 @@ export class ServeNavbarComponent implements OnInit {
   ngOnInit() {
 
     this.serverVmNs =new Array(this.server.vmN) ;
+    this.serverId = this.server.id;
 
     $(document).ready(function(){
       $.sidebarMenu = function (menu) {
@@ -69,8 +73,6 @@ export class ServeNavbarComponent implements OnInit {
 
       //  点击子列表，改变样式
       $('.treeview-menu>li>a').on('click', function () {
-        // console.log($(this).text());
-        console.log($('.treeview-menu:eq(0)>li>a').text());
         $('.treeview-menu>li>a>i').removeClass('fa-dot-circle-o').addClass('fa-circle-o');
         $(this).find('i').removeClass('fa-circle-o').addClass('fa-dot-circle-o');
       });
