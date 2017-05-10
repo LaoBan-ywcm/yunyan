@@ -30,6 +30,8 @@ import { TheServerInfoComponent } from './service-detail/the-server-info/the-ser
 import { TheServerDetailComponent } from './service-detail/the-server-detail/the-server-detail.component';
 import {ServerService} from "./shared/server.service";
 import {CenterService} from "./shared/center.service";
+import {AngularEchartsModule} from "angular2-echarts";
+import { TestComponent } from './charts/test/test.component';
 
 
 
@@ -61,12 +63,14 @@ import {CenterService} from "./shared/center.service";
     CenterComponent,
     TheServerInfoComponent,
     TheServerDetailComponent,
+    TestComponent,
   ],
   imports: [
     BrowserModule,
     FormsModule,
     HttpModule,
-    AppRoutingModule
+    AppRoutingModule,
+    AngularEchartsModule
   ],
   providers: [ServerService,CenterService],
   bootstrap: [AppComponent]
