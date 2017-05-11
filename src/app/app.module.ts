@@ -30,14 +30,15 @@ import { TheServerInfoComponent } from './service-detail/the-server-info/the-ser
 import { TheServerDetailComponent } from './service-detail/the-server-detail/the-server-detail.component';
 import {ServerService} from "./shared/server.service";
 import {CenterService} from "./shared/center.service";
-<<<<<<< HEAD
-import { TestComponent } from './charts/test/test.component';
-import {EchartsNg2Module} from "echarts-ng2";
 
-=======
+
+
+
+
 import {AngularEchartsModule} from "angular2-echarts";
-import { TestComponent } from './charts/test/test.component';
->>>>>>> master
+import {TestComponent} from "./charts/test/test.component";
+
+
 
 
 
@@ -76,12 +77,7 @@ import { TestComponent } from './charts/test/test.component';
     FormsModule,
     HttpModule,
     AppRoutingModule,
-<<<<<<< HEAD
-    EchartsNg2Module
-
-=======
     AngularEchartsModule
->>>>>>> master
   ],
   providers: [ServerService,CenterService],
   bootstrap: [AppComponent]
