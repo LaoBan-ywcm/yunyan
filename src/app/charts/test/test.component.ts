@@ -258,7 +258,7 @@ export class TestComponent  {
         center: ['50%', '50%'],
         data:[
           {value:200, name:'已利用'},
-          {value:311, name:'未利用'},
+          {value:312, name:'未利用'},
 
         ].sort(function (a, b) { return a.value - b.value; }),
         roseType: 'radius',
