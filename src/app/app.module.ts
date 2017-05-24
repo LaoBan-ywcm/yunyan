@@ -32,6 +32,7 @@ import {ServerService} from "./shared/server.service";
 import {CenterService} from "./shared/center.service";
 import {AngularEchartsModule} from "angular2-echarts";
 import { TestComponent } from './charts/test/test.component';
+import { CNetworkCardComponent } from './charts/c-network-card/c-network-card.component';
 
 
 
@@ -64,6 +65,7 @@ import { TestComponent } from './charts/test/test.component';
     TheServerInfoComponent,
     TheServerDetailComponent,
     TestComponent,
+    CNetworkCardComponent,
   ],
   imports: [
     BrowserModule,
